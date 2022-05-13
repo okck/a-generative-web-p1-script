@@ -50,19 +50,19 @@
 
 
 //!!!!!
-var canvasx = document.getElementById("imgCanvas");
-var ctx = canvasx.getContext("2d");
+// var canvasx = document.getElementById("imgCanvas");
+// var ctx = canvasx.getContext("2d");
 
-var grd = ctx.createRadialGradient(Math.random()*100, 50, 5, 90, 60, 100);
-grd.addColorStop(0, "black");
-grd.addColorStop(1, "white");
+// var grd = ctx.createRadialGradient(Math.random()*100, 50, 5, 90, 60, 100);
+// grd.addColorStop(0, "black");
+// grd.addColorStop(1, "white");
 
 // Fill with gradient
-ctx.fillStyle = grd;
-ctx.fillRect(0, 0, 150, 150);
-var imgx = canvasx.toDataURL("image/png");
-document.getElementById("drawMe").style.width = '100px';
-document.getElementById("drawMe").style.height = '100px';
+// ctx.fillStyle = grd;
+// ctx.fillRect(0, 0, 150, 150);
+// var imgx = canvasx.toDataURL("image/png");
+// document.getElementById("drawMe").style.width = '100px';
+// document.getElementById("drawMe").style.height = '100px';
 
     // document.getElementById("drawMe").src = imgx;
 var canvasImg = document.getElementById("drawMe").src;
