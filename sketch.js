@@ -16,7 +16,7 @@ var s = ',-.:=//=<--"<==.--:-=-,.k,k"aoiqwueoiu'
 function getRandomInt(n) {
   return Math.floor(Math.random() * n);
 }
-function shuffle(s) {
+function shuffleArr(s) {
   var arr = s.split('');           // Convert String to array
   var n = arr.length;              // Length of the array
   
@@ -33,7 +33,7 @@ function shuffle(s) {
 }
 
 // var s = 'ABCDEF';
-s = shuffle(s);
+s = shuffleArr(s);
 // let reversedS;
 // if (Math.random() < 0.5) {
 //   reversedS = s.reverse();
@@ -45,10 +45,7 @@ const density = s;
 // let testImg;
 let asciiImg;
 
-var images = ['test2-small-48-1.png', 'test2-small-48-3.png', 'test2-small-48-4.png', 'test2-small-48-5.png']
-
-var images = ['/test-images/a-01.png', '/test-images/a-05.png', '/test-images/a-07.png']
-var images = ['/images/1-01.png', '/images/1-02.png', '/images/1-03.png', '/images/1-04.png', '/images/1-05.png', '/images/1-06.png', '/images/1-07.png', '/images/1-08.png', '/images/1-09.png', '/images/1-10.png']
+var images = ['images/1-01.png', 'images/1-02.png', 'images/1-03.png', 'images/1-04.png', 'images/1-05.png', 'images/1-06.png', 'images/1-07.png', 'images/1-08.png', 'images/1-09.png', 'images/1-10.png']
 
 
 var randomImage = images[Math.floor(Math.random()*images.length)]
@@ -203,8 +200,8 @@ function setup() {
     // for(i=0;i<sizeTest2.length;i++){
     //   sizeTest3[i].style.fontSize = Math.random()*50 + "px"
     // }
-   
-      // document.body.style.fontSize = (Math.random() * (20 - 5) + 5) + "px"
+
+    // document.body.style.fontSize = (Math.random() * (20 - 5) + 5) + "px"
       
     asciiImage += '<br/>';
     

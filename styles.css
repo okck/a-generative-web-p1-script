@@ -1,6 +1,6 @@
 @font-face {
   font-family: "pixeldingbats7";
-  src: url("/pixel_dingbats-7-webfont.woff2") format("woff2");
+  src: url("pixel_dingbats-7-webfont.woff2") format("woff2");
   }
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap'); /* first choice */
 
