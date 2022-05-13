@@ -45,7 +45,7 @@ const density = s;
 // let testImg;
 let asciiImg;
 
-var images = ['images/1-01.png', 'images/1-02.png', 'images/1-03.png', 'images/1-04.png', 'images/1-05.png', 'images/1-06.png', 'images/1-07.png', 'images/1-08.png', 'images/1-09.png', 'images/1-10.png']
+var images = ['./images/1-01.png', 'images/1-02.png', 'images/1-03.png', 'images/1-04.png', 'images/1-05.png', 'images/1-06.png', 'images/1-07.png', 'images/1-08.png', 'images/1-09.png', 'images/1-10.png']
 
 
 var randomImage = images[Math.floor(Math.random()*images.length)]
