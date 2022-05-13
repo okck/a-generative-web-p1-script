@@ -1,0 +1,169 @@
+@font-face {
+  font-family: "pixeldingbats7";
+  src: url("/pixel_dingbats-7-webfont.woff2") format("woff2");
+  }
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap'); /* first choice */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFF;
+  font-family: 'pixeldingbats7','Courier';
+  font-size: 26pt;
+  font-size: 12pt;
+  font-size: 2.5pt;
+  line-height: 10pt;
+
+  line-height: 11pt;
+
+/*   letter-spacing: 3px; */
+  background: #000;
+
+  /* set 1 */
+  /* color: #83FF08; */
+  color: #ff5100;
+
+  /* set 2 */
+  color: #fc91da;
+  color: #ff4d00;
+  /* color: #000000; */
+
+}
+
+*{
+  text-align: center;
+}
+canvas {
+  display: block;
+}
+
+span {
+  color: #FFF;
+}
+.color2 {
+  color: #2372F6;
+}
+
+.test {
+  width: 9px;
+  height: 9px;
+  display: inline-block;
+  overflow: hidden;
+  background: rgb(0, 0, 0);
+}
+#testDefault {
+  color:rgb(229, 187, 60);
+}
+#test {
+  /* color: rgb(0,130,255); */
+
+  /* set 1 */
+  color: rgb(255, 0, 157);
+  /* set 2 */
+  /* color: rgb(0, 255, 238); */
+  /* set 3 */
+  /* color: rgb(179, 255, 0); */
+  /* color: rgb(0, 0, 0); */
+}
+
+#test2 {
+  /* set 1 */
+  color: rgba(255, 0, 212, 0.625);
+  /* set 2 */
+  /* color: rgba(0, 238, 255, 0.625); */
+  /* set 3 */
+  /* color: rgb(112, 164, 0); */
+  /* color: rgb(0, 0, 0); */
+}
+
+.test:hover {
+}
+
+
+#newTestA1 {
+  color: rgb(255, 0, 157);
+}
+#newTestA2 {
+  color: rgb(0, 255, 238);
+}
+#newTestA3 {
+  color: rgb(225, 255, 0);
+}
+
+#newTestB1 {
+  color: rgba(255, 0, 212, 0.625);
+}
+#newTestB2 {
+  color: rgba(0, 238, 255, 0.625);
+}
+#newTestB3 {
+  color: rgb(106, 255, 0);
+}
+
+#newTestC1 {
+  color: rgb(204, 255, 0);
+}
+#newTestC2 {
+  color: rgb(255, 0, 217);
+}
+#newTestC3 {
+  color: rgb(255, 132, 0);
+}
+
+#newTestD1 {
+  color: rgb(221, 255, 0);
+}
+#newTestD2 {
+  color: rgb(255, 0, 251);
+}
+#newTestD3 {
+  color: rgb(255, 179, 0);
+}
+
+#newTestE1 {
+  color: rgb(234, 255, 0);
+}
+#newTestE2 {
+  color: rgb(255, 0, 60);
+}
+#newTestE3 {
+  color: rgb(255, 60, 0);
+}
+
+.sizeTest1 {
+  /* font-size: 12pt; */
+  /* position: absolute; */
+  z-index: 5;
+  transform: rotate(20deg);
+
+  /* top: 0; */
+  /* left: 0; */
+}
+.sizeTest2 {
+  /* font-size: 12pt; */
+  /* position: absolute; */
+  z-index: 5;
+  transform: rotate(50deg);
+
+  /* top: 0; */
+  /* left: 0; */
+}
+div {
+  /* overflow: hidden; */
+}
+
+.divTest {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.side {
+  position: absolute;
+  top: 50vh;
+  left: 10rem;
+  font-family: 'Fira Mono', monospace;
+  font-size: .8rem;
+  color: white;
+}

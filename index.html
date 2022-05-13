@@ -1,1 +1,74 @@
-<h1>hello</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script>
+<script src="sketch.js"></script>
+<title>sketch</title>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    canvas {
+        padding: 0;
+        margin: auto;
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    #imgCanvas {
+    }
+</style>
+</head>
+<body>
+
+    <div class="side" id="side" style="text-align: left">
+        <!-- <div>Colors:</div><br>
+        <div>red, green, blue</div><br>
+
+        <div>Glyphs:</div><br>
+        <div>string</div> -->
+    </div>
+
+
+    <!-- <canvas id="imgCanvas"></canvas> -->
+    <!-- <img id="drawMe"> -->
+</body>
+<script>
+
+
+
+
+
+
+//!!!!!
+var canvasx = document.getElementById("imgCanvas");
+var ctx = canvasx.getContext("2d");
+
+var grd = ctx.createRadialGradient(Math.random()*100, 50, 5, 90, 60, 100);
+grd.addColorStop(0, "black");
+grd.addColorStop(1, "white");
+
+// Fill with gradient
+ctx.fillStyle = grd;
+ctx.fillRect(0, 0, 150, 150);
+var imgx = canvasx.toDataURL("image/png");
+document.getElementById("drawMe").style.width = '100px';
+document.getElementById("drawMe").style.height = '100px';
+
+    // document.getElementById("drawMe").src = imgx;
+var canvasImg = document.getElementById("drawMe").src;
+
+document.getElementById('side').innerHTML += `<div>Colors:</div><br><div>${red}, ${green}, ${blue}</div><br><div>Glyphs:</div><br><div>${s}</div>`
+//!!!!!
+
+</script>
+</html>
